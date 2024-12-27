@@ -6,7 +6,11 @@ let package = Package(
 	name: "BitwiseCopyableUnions",
 	targets: [
 		.executableTarget(
-			name: "BitwiseCopyableUnions"
+			name: "BitwiseCopyableUnions",
+			dependencies: ["DemoCModule"]
 		),
+		.target(
+			name: "DemoCModule"
+		)
 	]
 )

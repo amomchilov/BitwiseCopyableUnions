@@ -1,0 +1,5 @@
+module DemoCModule [system] {
+	header "./include/Birdiging-Header.h"
+	link "DemoCModule"
+	export *
+}
